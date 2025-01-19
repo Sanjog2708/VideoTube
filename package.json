@@ -1,0 +1,17 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "A platform in which a user can see videos and react on that videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "Mongodb",
+    "express",
+    "nodejs"
+  ],
+  "author": "Sanjog Salunke",
+  "license": "ISC"
+}

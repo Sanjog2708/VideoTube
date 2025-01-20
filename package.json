@@ -2,6 +2,7 @@
   "name": "videotube",
   "version": "1.0.0",
   "description": "A platform in which a user can see videos and react on that videos",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +14,8 @@
     "nodejs"
   ],
   "author": "Sanjog Salunke",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }

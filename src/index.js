@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import {app} from "./app.js";
 
 dotenv.config();
+
 connectDB()
 .then(()=>{
     app.listen(process.env.PORT || 8000 ,()=>{
@@ -12,4 +13,3 @@ connectDB()
 .catch((err)=>{
     console.log("Mongo DB Connection Fail!!!",err);
 })
-
